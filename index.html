@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dev Finder</title>
-  </head>
-  <body>
-    
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Finder</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link
+    href="https://fonts.cdnfonts.com/css/nk57-monospace?styles=20716,20722,20744,20742,20754,20756,20736,20748,20738,20750"
+    rel="stylesheet">
+</head>
+
+<body class="">
+  <main class="container">
+    <header>
+      <h1>devfinder</h1>
+      <div class="mode-toggle">
+        <div class="light">
+          <span class="text">LIGHT</span>
+          <i class="bx bxs-sun"></i>
+        </div>
+        <div class="dark">
+          <span class="text">DARK</span>
+          <i class="bx bxs-moon"></i>
+        </div>
+      </div>
+    </header>
+    <div class="search">
+      <i class="bx bx-search"></i>
+      <input type="text" placeholder="Search Gihub username...">
+      <button>Search</button>
+    </div>
+    <section class="content">
+      <div class="profile">
+        <div class="profile-img">
+          <img src="./public/octocat.svg" alt="">
+        </div>
+        <div class="profile-details">
+          <h2>The Octocat</h2>
+          <a href="#">@octocat</a>
+          <div class="joined">Joined <span class="date">25, Jan 2021</span></div>
+        </div>
+      </div>
+      <div class="bio">
+        <p>Lorem ipsum dolor sit amet consectetur elit. Voluptates modi, voluptatum laudantium impedit qui.</p>
+      </div>
+      <div class="figures">
+        <div>
+          <span>Repos</span>
+          <span>8</span>
+        </div>
+        <div>
+          <span>Followers</span>
+          <span>3938</span>
+        </div>
+        <div>
+          <span>Following</span>
+          <span>9</span>
+        </div>
+      </div>
+      <div class="socials">
+        <div>
+          <i class='bx bxs-location-plus'></i>
+          <span>San Francisco</span>
+        </div>
+        <div>
+          <i class='bx bx-link' ></i>
+          <span>https://github.blog</span>
+        </div>
+        <div>
+          <i class='bx bxl-twitter'></i>
+          <span>Not available</span>
+        </div>
+        <div>
+          <i class='bx bx-buildings'></i>
+          <span>@github</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
