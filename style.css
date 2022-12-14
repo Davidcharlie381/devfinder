@@ -19,7 +19,7 @@ body {
   color: var(--text);
   height: 100vh;
   place-content: center;
-  padding: 80px 0;
+  padding: 50px 0;
 }
 
 body.light {
@@ -51,7 +51,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 2.3rem;
+  font-size: 1.9rem;
 }
 
 .mode-toggle {
@@ -62,8 +62,8 @@ h1 {
 
 .search {
   background-color: var(--bg-variant);
-  padding: 15px 20px;
-  margin: 80px 0;
+  padding: 15px;
+  margin: 40px 0;
   border-radius: 20px;
   display: flex;
   justify-content: space-between;
@@ -71,7 +71,7 @@ h1 {
 }
 
 .search i {
-  font-size: 3rem;
+  font-size: 2.3rem;
   color: var(--dark-blue);
 }
 
@@ -80,7 +80,8 @@ h1 {
   background-color: transparent;
   color: var(--text);
   font-family: inherit;
-  font-size: 1.3rem;
+  font-size: .9rem;
+  text-overflow: ellipsis;
   outline: none;
   justify-self: start;
 }
@@ -91,10 +92,10 @@ h1 {
 
 .search button {
   background-color: var(--light-blue);
-  padding: 25px 30px;
+  padding: 10px 15px;
   border: none;
-  border-radius: 15px;
-  font-size: 1.5rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
   color: var(--text);
   font-family: inherit;
   font-weight: 600;
@@ -102,19 +103,19 @@ h1 {
 
 .content {
   background-color: var(--bg-variant);
-  padding: 50px 50px;
+  padding: 30px;
   border-radius: 20px;
 }
 
 .profile {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   align-items: center;
 }
 
 .profile-img {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   background-color: var(--text);
   border-radius: 50%;
   overflow: hidden;
@@ -128,13 +129,13 @@ h1 {
 }
 
 .profile-details h2 {
-  font-size: 1.9rem;
-  margin-bottom: 15px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 .profile-details a {
   color: var(--dark-blue);
-  font-size: 1.3rem;
+  font-size: .9rem;
   letter-spacing: 2.5px;
   display: inline-block;
   margin-bottom: 15px;
@@ -142,7 +143,7 @@ h1 {
 }
 
 .profile-details .joined {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   letter-spacing: 2.3px;
 }
 
@@ -151,8 +152,8 @@ h1 {
 }
 
 .bio p {
-  font-size: 1.3rem;
-  letter-spacing: 2.4px;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
   line-height: 2.2;
 }
 
@@ -161,8 +162,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   padding: 30px;
-  gap: 60px;
   border-radius: 15px;
   margin-top: 30px;
 }
@@ -172,13 +173,13 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 1.2px;
 }
 
 .figures div span:last-child {
   font-weight: 800;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .socials {
@@ -187,7 +188,7 @@ h1 {
 
 .socials div {
   margin: 20px 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: 2px;
 }
 
@@ -200,7 +201,7 @@ h1 {
 
 
 
-
+/* 
 
 @media (min-width: 768px) {
   .container {
@@ -212,4 +213,4 @@ h1 {
   .container {
     max-width: 60rem;
   }
-}
+} */
